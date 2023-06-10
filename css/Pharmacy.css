@@ -1,0 +1,49 @@
+p,a {
+    font-family: 'Roboto', 'Open Sans';
+   }
+   
+   
+   .Pharmacy-1 .sect-1-img {
+       max-width: 600px;
+   }
+   
+   
+   .Pharmacy-1 p {
+       line-height: 2.5;
+       color: rgb(83, 83, 83);
+       
+   }
+   
+   
+   .Pharmacy-1 {
+      background-color: rgb(230, 230, 230);
+   }
+   
+   
+   .Pharmacy-1 h1 {
+       transition: all .6s ease 0s;
+   }
+   
+   
+   
+   
+   
+   
+   .Pharmacy-2 p, li {
+       font-family: 'Roboto', 'Open Sans';
+    line-height: 1.7;
+    color: rgb(68, 68, 68);
+   }
+
+
+
+
+
+
+
+   @media (max-width: 767.98px) {
+    .Pharmacy-1 .sect-1-img {
+        max-width: 100%;
+    }
+    
+}

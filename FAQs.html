@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EuroMed Study</title>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Style sheets -->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/FAQs.css" />
+
+    <!-- FontAwsome -->
+    <script
+      src="https://kit.fontawesome.com/c72576c302.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Sacramento&family=Ubuntu:wght@400;900&family=Roboto:wght@400;900&family=Quicksand:wght@400&family=Poppins:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+
+  <!---------- Start ------------------------------------------------------------------------------------------>
+  <!----------------------------------------------------------------------------------------------------------->
+  <body>
+    <nav class="navbar custom-navbar navbar-expand-lg sticky-top border-bottom shadow">
+      <div class="nav-blue-bar">
+        <p class="nav-blue-bar-content-left">
+          <i class="fa-solid fa-square-phone"></i> &nbsp; &nbsp; 0000-111-2222
+          &nbsp; &nbsp; &nbsp;
+          <i class="fa-solid fa-envelope" style="color: #ffffff"></i>
+          &nbsp; &nbsp; Studebt@gmail.com
+        </p>
+        <p class="nav-blue-bar-content-right">
+          We are now taking intakes for July, Limited seats
+        </p>
+      </div>
+
+      <div class="container-fluid d-flex">
+        <a class="navbar-brand" href="index.html">
+          <img src="/images/EuroMed-Study.png" alt="Bootstrap" class="img-fluid">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars fa-xl" style="color: #ffffff"></i>
+        </button>
+        <div class="collapse navbar-collapse navbar-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link"  href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Courses
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Gen-med.html"
+                    > Medicine &nbsp;
+                    <i class="fa-solid fa-stethoscope"></i
+                  ></a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="Dentistry.html"
+                    >Dentistry &nbsp; <i class="fa-solid fa-tooth"></i>
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="Pharmacy.html"
+                    >Pharmacy &nbsp;
+                    <i class="fa-solid fa-prescription-bottle-medical"></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Universities.html">Univeristies</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Us
+              </a>
+              <ul class="dropdown-menu"   >
+                <li><a class="dropdown-item" href="Company.html"> Our Company</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item active" aria-current="true"  href="FAQs.html"> FAQs </a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="Contact-us.html">Contact Us</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <button class="btn">
+            <i
+              class="social-media-icons fa-brands fa-whatsapp"
+              style="color: #25d366"
+            ></i>
+          </button>
+          <button class="btn">
+            <i
+              class="social-media-icons fa-brands fa-facebook"
+              style="color: #4267b2"
+            ></i>
+          </button>
+          <button class="btn">
+            <i
+              class="social-media-icons fa-brands fa-linkedin"
+              style="color: #0072b1"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="myAlert"
+      class="alert alert-info alert-dismissible fade d-none show m-0 border-0 rounded-0"
+      role="alert"
+    >
+      <strong class="me-5"
+        >We are now taking intakes for July, Limited seats</strong
+      >
+      <a href="Contact-us.html" class="btn btn-outline-light btn-sm"
+        >Enquire Now</a
+      >
+      <button
+        type="button"
+        class="close btn btn-light float-end"
+        data-dismiss="alert"
+        aria-label="Close"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <!-------- Section 1 (hero section) -------------------------------------------------------------------------------------->
+
+    <section class="section-1">
+      <div class="container">
+        <h1 class="my-4 text-center mb-5">Frequently Asked Questions</h1>
+
+        <!-- 1st Row -->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="container mb-5">
+              <h3 class="mb-4">Admissions and Academics</h3>
+
+              <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse1"
+                      aria-expanded="false"
+                      aria-controls="collapse1"
+                    >
+                      What are the academic requirements for the program?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      The academic requirements vary depending on the specific
+                      program and university. Generally, for medical studies,
+                      you would need a high school diploma with good grades in
+                      Biology and Chemistry.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse2"
+                      aria-expanded="false"
+                      aria-controls="collapse2"
+                    >
+                      How many years does it take to complete a medical degree
+                      in Romania?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Medical degree in Romania typically takes 6 years to
+                      complete.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse3"
+                      aria-expanded="false"
+                      aria-controls="collapse3"
+                    >
+                      What kind of support will be provided for international
+                      students (orientation programs, student services, etc.)?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Romanian universities have dedicated international offices
+                      to help with orientation, settling in, and other support
+                      services needed by international students.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse4"
+                      aria-expanded="false"
+                      aria-controls="collapse4"
+                    >
+                      Can I transfer credits from my home country's university
+                      to a university in Romania?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Transfer of credits largely depends on the university's
+                      policy and your previous academic background. You would
+                      need to check directly with the university in question.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse5"
+                      aria-expanded="false"
+                      aria-controls="collapse5"
+                    >
+                      How competitive is admission into Romanian universities
+                      for international students?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Admission into Romanian universities is quite competitive
+                      due to the high-quality education and affordable costs.
+                      However, a strong academic record and a well-prepared
+                      application can increase your chances of acceptance.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse6"
+                      aria-expanded="false"
+                      aria-controls="collapse6"
+                    >
+                      What are the requirements for admission into a medical
+                      program?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse6"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      The requirements for admission vary from university to
+                      university, but generally include a high school diploma,
+                      proficiency in the language of instruction, and sometimes
+                      an entrance exam.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="container mb-5">
+              <h3 class="mb-4">Finance</h3>
+
+              <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse7"
+                      aria-expanded="true"
+                      aria-controls="collapse7"
+                    >
+                      How much will the program cost, including tuition,
+                      accommodation, and living expenses?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse7"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Tuition fees range from 5,000 to 8,500 Euros per year. The
+                      cost of living is lower than in many Western European
+                      countries, with affordable housing, transportation, and
+                      food.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse8"
+                      aria-expanded="false"
+                      aria-controls="collapse8"
+                    >
+                      Are there scholarships or financial aid options available
+                      for international students?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse8"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Various scholarships are available, both from Romanian
+                      institutions and international bodies. The specifics
+                      depend on the chosen university and the student's home
+                      country.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse9"
+                      aria-expanded="false"
+                      aria-controls="collapse9"
+                    >
+                      Can I work while studying in Romania?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse9"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Yes, students can work while studying, but work-study
+                      options can depend on your student visa regulations.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse10"
+                      aria-expanded="false"
+                      aria-controls="collapse10"
+                    >
+                      Are there financial aid options for international
+                      students?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse10"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Financial aid options depend largely on your home
+                      country's international study policies and the specific
+                      university.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2nd Row -->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="container mb-5">
+              <h3 class="mb-4">Language and Cultural Adaptation</h3>
+
+              <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse11"
+                      aria-expanded="false"
+                      aria-controls="collapse11"
+                    >
+                      What is the language of instruction and will there be
+                      language support provided?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse11"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Many Romanian universities offer programs in English,
+                      French, and Romanian. Language support is typically
+                      provided, especially for programs taught in Romanian.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse12"
+                      aria-expanded="false"
+                      aria-controls="collapse12"
+                    >
+                      What is the local culture like and how can I integrate
+                      smoothly?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse12"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Romania has a rich culture and welcoming population. There
+                      are also international student clubs and local festivals
+                      which can help in integrating with the local culture.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse13"
+                      aria-expanded="false"
+                      aria-controls="collapse13"
+                    >
+                      What opportunities will I have to engage in
+                      extracurricular activities or join student
+                      clubs/organizations?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse13"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Romanian universities offer a vibrant campus life with
+                      numerous clubs, sports teams, and cultural events.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse14"
+                      aria-expanded="false"
+                      aria-controls="collapse14"
+                    >
+                      Do I need to learn Romanian to study in Romania?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse14"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      There are programs in Romania taught in English, French,
+                      and Romanian. So, it's not necessary to learn Romanian
+                      unless you opt for a Romanian-taught program.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse15"
+                      aria-expanded="false"
+                      aria-controls="collapse15"
+                    >
+                      Are there student groups or communities for international
+                      students?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse15"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Most Romanian universities have international student
+                      societies which help students adapt to life in Romania.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="container mb-5">
+              <h3 class="mb-4">Recognition and Career Prospects</h3>
+
+              <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse16"
+                      aria-expanded="true"
+                      aria-controls="collapse16"
+                    >
+                      What career services does the university offer to help me
+                      after graduation?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse16"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Universities usually have career services that provide
+                      counseling, career fairs, networking events, and resources
+                      to help you transition into your career or further study.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse17"
+                      aria-expanded="false"
+                      aria-controls="collapse17"
+                    >
+                      Can I practice medicine in my home country after earning a
+                      degree in Romania?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse17"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      A Romanian medical degree is globally recognized. However,
+                      the right to practice can depend on the regulations of
+                      your home country.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse18"
+                      aria-expanded="false"
+                      aria-controls="collapse18"
+                    >
+                      What career services does the university offer to help me
+                      after graduation?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse18"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Universities usually have career services that provide
+                      counseling, career fairs, networking events, and resources
+                      to help you transition into your career or further study.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3rd row -->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="container mb-5">
+              <h3 class="mb-4">Living and Safety</h3>
+
+              <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse19"
+                      aria-expanded="false"
+                      aria-controls="collapse19"
+                    >
+                      What is the accommodation arrangement? Will the university
+                      assist with finding housing?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse19"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Universities typically offer on-campus housing or can
+                      assist in finding private accommodation options.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse20"
+                      aria-expanded="false"
+                      aria-controls="collapse20"
+                    >
+                      How safe is the city/campus and what kind of healthcare
+                      facilities are available?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse20"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Romania is among the top 30% safest countries in the
+                      world, and has a universal healthcare system, accessible
+                      to all students with adequate insurance.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse21"
+                      aria-expanded="false"
+                      aria-controls="collapse21"
+                    >
+                      What is the cost of living for a student in Romania?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse21"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      The cost of living in Romania is relatively lower compared
+                      to many Western European countries.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse22"
+                      aria-expanded="false"
+                      aria-controls="collapse22"
+                    >
+                      What are the accommodation options available for
+                      international students?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse22"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Accommodation options include university dormitories,
+                      private hostels, and renting apartments.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse23"
+                      aria-expanded="false"
+                      aria-controls="collapse23"
+                    >
+                      How safe are Romanian cities for international students?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse23"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Romanian cities are generally safe with a low crime rate.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="container mb-5">
+              <h3 class="mb-4">Visa and Travel</h3>
+
+              <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse24"
+                      aria-expanded="true"
+                      aria-controls="collapse24"
+                    >
+                      Can I travel back to my home country during holidays or
+                      term breaks?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse24"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Yes, Romania's location in Europe allows for convenient
+                      travel to most places in Europe and beyond.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse25"
+                      aria-expanded="false"
+                      aria-controls="collapse25"
+                    >
+                      What kind of visa will I need and how do I apply for it?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse25"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Non-EU/EEA students will need a long-stay student visa.
+                      The application process involves submitting a set of
+                      documents to the Romanian embassy or consulate in your
+                      country.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse26"
+                      aria-expanded="false"
+                      aria-controls="collapse26"
+                    >
+                      Can I travel to other European countries while studying in
+                      Romania?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse26"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Yes, Romania is part of the European Union, and
+                      international students can travel to other EU countries.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse27"
+                      aria-expanded="false"
+                      aria-controls="collapse27"
+                    >
+                      Can my family visit me while I am studying in Romania?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse27"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Yes, family visit regulations would fall under the general
+                      travel guidelines and visa requirements of Romania.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4th row -->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="container mb-5">
+              <h3 class="mb-4">Extra-curricular Activities and Campus Life</h3>
+
+              <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse28"
+                      aria-expanded="true"
+                      aria-controls="collapse28"
+                    >
+                      Are there opportunities for internships or part-time work
+                      while I'm studying
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse28"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Yes, many programs include internships or clinical
+                      rotations as part of the curriculum. As for part-time
+                      work, international students can work up to 4 hours a day
+                      as per Romanian law.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse29"
+                      aria-expanded="false"
+                      aria-controls="collapse29"
+                    >
+                      What opportunities will I have to engage in
+                      extracurricular activities or join student
+                      clubs/organizations?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse29"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Romanian universities offer a vibrant campus life with
+                      numerous clubs, sports teams, and cultural events.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse30"
+                      aria-expanded="false"
+                      aria-controls="collapse30"
+                    >
+                      What facilities are available on-campus for students?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse30"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Romanian universities offer a wide range of
+                      extracurricular activities, from sports and clubs to
+                      student-run organizations and volunteering opportunities.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse31"
+                      aria-expanded="false"
+                      aria-controls="collapse31"
+                    >
+                      Are there sports clubs and societies in Romanian
+                      universities?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapse31"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Campus life in Romania is vibrant and diverse. You can
+                      expect to meet fellow students from all over the world and
+                      participate in a variety of events and activities.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+<hr>
+
+   <!-------- Section 8 (Contact us form) -------------------------------------------------------------------------------------->
+   <section class="section-8">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Contact Us</h1>
+          <p>
+            If you have any questions or need further assistance, please don't
+            hesitate to reach out to us through the contact form below, and
+            our dedicated team will be happy to help you.
+          </p>
+          <form>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="input1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="input2"
+                placeholder="Phone Number"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="input3"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="input4"
+                placeholder="Message"
+              />
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </form>
+        </div>
+        <div class="col-lg-6">
+          <img
+            src="/images/last-image.png"
+            alt="Your image description"
+            class="img-fluid"
+            style="margin-top: 50px"
+          />
+          <hr />
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-------------- Footer ---------------------------------------------------------------------------------------------------------->
+
+    <footer class="footer text-white py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Company Name</h4>
+            <p>123 Main Street, Anytown, Country</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Email: info@companyname.com</p>
+          </div>
+          <div class="col-md-6">
+            <h4>Quick Links</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Home</a></li>
+              <li><a href="#" class="text-white">About Us</a></li>
+              <li><a href="#" class="text-white">Services</a></li>
+              <li><a href="#" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center mt-3">
+            <p>&copy; 2023 Company Name. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

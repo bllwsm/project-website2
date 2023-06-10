@@ -1,0 +1,20 @@
+.uni-cards {
+background-color: #f5f5f5;
+}
+/* 
+.uni-cards:hover {
+opacity: 85%;
+cursor: pointer;
+} */
+
+
+
+.filter-results {
+    height: 200px;
+    background-color: rgb(224, 224, 224);
+}
+/* 
+.filter-results {
+    height: 200px;
+    background-color: rgb(224, 224, 224);
+} */

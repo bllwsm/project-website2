@@ -1,0 +1,45 @@
+p,a {
+ font-family: 'Roboto', 'Open Sans';
+}
+
+
+.Gen-med-1 .sect-1-img {
+    max-width: 600px;
+}
+
+
+.Gen-med-1 p {
+    line-height: 2.5;
+    color: rgb(83, 83, 83);
+    
+}
+
+
+.Gen-med-1 {
+   background-color: rgb(230, 230, 230);
+}
+
+
+.Gen-med-1 h1 {
+    transition: all .6s ease 0s;
+}
+
+
+
+
+
+
+.Gen-med-2 p, li {
+    font-family: 'Roboto', 'Open Sans';
+ line-height: 1.7;
+    color: rgb(68, 68, 68);
+}
+
+
+
+@media (max-width: 767.98px) {
+    .Gen-med-1 .sect-1-img {
+        max-width: 100%;
+    }
+    
+}

@@ -1,0 +1,808 @@
+body,
+html {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden ;
+}
+
+h1 {
+  font-family: "ubuntu";
+  font-size: 46px;
+  line-height: 58px;
+  font-weight: 900;
+  color: #192f59;
+}
+h2 {
+  font-family: "ubuntu";
+  color: #192f59;
+}
+h4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #000000;
+}
+
+p,
+a {
+  font-family: "Quicksand";
+  font-size: 17px;
+  line-height: 28px;
+  color: #192f59;
+}
+
+/*------------ Naviagation Bar  -----------------------------------------------------*/
+
+.nav-blue-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 240px;
+  height: 100px;
+  background-color: #192f59;
+  clip-path: polygon(
+    10px 0,
+    1900px 0,
+    1900px 35px,
+    45px 35px,
+    17px 100px,
+    15px 100px,
+    43px 35px
+  );
+}
+
+.nav-blue-bar-content-left {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 200;
+  position: absolute;
+  top: 4px;
+  left: 100px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.nav-blue-bar-content-right {
+  font-family: Inter;
+  font-weight: 200;
+  font-size: 14px;
+  position: absolute;
+  top: 4px;
+  right: 103px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.custom-navbar {
+  background-color: #f4f5f7;
+  min-height: 100px;
+  max-width: 100vw;
+}
+
+.navbar-brand {
+  max-width: 230px;
+  min-width: 230px;
+  transition: transform 0.3s ease;
+  margin-left: 10px;
+}
+
+.navbar-brand:hover {
+  transform: scale(1.08);
+}
+
+.nav-link {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  color: #000000da;
+}
+
+.navbar-center {
+  padding-left: 12%;
+}
+
+.nav-item {
+  margin-right: 60px;
+  margin-top: 41px;
+}
+.social-media {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+}
+
+.social-media button {
+  border-radius: 100%;
+  border-color: lightgray;
+}
+.social-media button:hover {
+  background-color: lightgray;
+}
+
+.navbar-toggler {
+  margin-right: 50px;
+}
+
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+.alert {
+  background-color: #2a87eb;
+  color: #ffffff;
+  text-align: center;
+}
+
+/*--------------- Section 1 (hero section) -----------------------------------------------------------------------------------------------------*/
+
+.sect1-content {
+  position: relative;
+  background-image: url("../images/university.jpg");
+
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+}
+
+.section-1 .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(25, 47, 89);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 47, 89, 0.8015581232492998) 0%,
+    rgba(25, 47, 89, 1) 50%
+  );
+}
+
+.sect1-title {
+  padding-left: 70px;
+}
+
+.icon-wrapper {
+  background-color: #e9ecee;
+  border-radius: 50%;
+  padding: 1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-sect {
+  max-width: 40%;
+  background-color: #f4f5f7f3;
+  border-radius: 10px;
+}
+
+.fas {
+  color: #192f59;
+}
+
+.content-container {
+  position: relative;
+  z-index: 1;
+  padding: 3rem 0;
+}
+
+.header-buttons .btn {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.6s ease 0s;
+  border-radius: 2px;
+}
+
+.header-buttons .btn:hover {
+  box-shadow: 0px 15px 20px rgba(128, 128, 128, 0.4);
+  opacity: 90%;
+  transform: translateY(-7px);
+  color: white;
+}
+
+.header-buttons a {
+  border-radius: 0;
+  font-family: "Roboto", "Open Sans";
+  color: white;
+}
+
+.header-buttons a:first-child {
+  background-color: #2a4d8f;
+}
+.header-buttons a:last-child {
+  background-color: rgb(173, 2, 2);
+}
+
+/*--------------- Section 2 (3-step process) -----------------------------------------------------------------------------------------------------*/
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  min-height: 100vh;
+  padding: 50px 0;
+}
+
+.section-2 p {
+  color: #e9ecee;
+}
+
+.timeline {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-node {
+  display: flex;
+  align-items: center;
+}
+
+.timeline-empty {
+  flex-grow: 1;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timeline-middle {
+  position: relative;
+  width: 3px;
+  background-image: linear-gradient(45deg, #2e6da4, #192f59, #2e6da4);
+}
+
+.timeline-circle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-image: linear-gradient(45deg, #2e6da4, #192f59, #2e6da4);
+  transform: translateY(-50%);
+}
+
+.timeline-content {
+  flex-grow: 1;
+  padding: 20px;
+  background: linear-gradient(
+    130deg,
+    rgba(25, 47, 89, 1) 0%,
+    rgba(23, 58, 99, 1) 59%,
+    rgba(18, 79, 118, 1) 73%,
+    rgba(12, 103, 140, 1) 82%,
+    rgba(9, 115, 151, 1) 88%,
+    rgba(6, 127, 162, 1) 94%,
+    rgba(0, 156, 187, 1) 100%
+  );
+  color: white;
+  padding: 1.75rem;
+  transition: 0.4s ease;
+  overflow-wrap: break-word !important;
+  margin: 1rem;
+  margin-bottom: 20px;
+}
+
+.timeline-component:hover {
+    transform: scale(1.03);
+
+}
+
+
+.hidden-2 {
+  display: none;
+}
+
+.last-timeline-step {
+  background: #1654a5;
+}
+.last-timeline-step h2 {
+  color: white;
+}
+
+.section-2 hr {
+  color: #000000;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section-2 .card-body {
+  padding: 27px 33px;
+}
+
+.sect2-cards {
+  background-color: #192f59;
+  border: none;
+  border-radius: 0%;
+  color: #ffffff;
+  max-width: 350px;
+}
+
+.sect2-card-middle {
+  background-color: rgb(241, 241, 241);
+  color: #192f59;
+  border-radius: 0%;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+}
+
+.sect2-card-middle p {
+  color: black;
+}
+
+.sect2-card-middle h2 {
+  color: #192f59;
+}
+
+.sect2-cards .card-text {
+  font-family: Quicksand;
+  text-align: center;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.sect2-cards .card-title {
+  font-family: ubuntu;
+  text-align: center;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+/*------------ Section 3 (Benefits of studying in romania) --------------------------------------------------------------------------------------------------------*/
+
+.section-3 {
+  background-color: rgba(88, 151, 245, 0.116);
+}
+
+.section-3 .container {
+  max-width: 1200px;
+}
+
+.section-3 h4 {
+  color: #192f59;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.section-3 i {
+  padding-bottom: 10px;
+}
+
+.section-3 p {
+  font-size: 17px;
+}
+
+.info-column {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+.info-column:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.info-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/*------------ Section 4 (CTA) --------------------------------------------------------------------------------------------------------*/
+
+.cta {
+  position: relative;
+  width: 100%;
+  height: 305.45px;
+  background-image: url("../images/booknow-bg-img.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #192f59;
+  opacity: 90%;
+}
+
+.content {
+  position: absolute;
+
+  text-align: center;
+  width: 100%;
+}
+
+.content h1 {
+  max-width: 80%;
+  color: white;
+}
+
+.cta-button {
+  font-family: "Quicksand";
+  font-size: 18px;
+  width: 190px;
+  height: 68.02px;
+  border: none;
+  color: #192f59;
+  background-color: white;
+}
+
+/*------------ Section 5 (free tools for you) --------------------------------------------------------------------------------------------------------*/
+.section-5 {
+  margin-top: 60px;
+}
+
+.tools-description {
+  margin-top: 60px;
+}
+
+.section-5 h2 {
+  font-family: "ubuntu";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #192f59;
+}
+
+.section-5 p {
+  color: black;
+  font-size: 16px;
+}
+
+.section-5 .card-body,
+.section-5 .card-text {
+  padding: 0;
+  margin: 0;
+}
+
+/*------------ Section 6 (why study in romania)  --------------------------------------------------------------------------------------------------------*/
+
+#section-6 {
+  margin-top: 5%;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+#section-6 .container {
+  margin-top: 100px;
+}
+
+.why-in-rom {
+  background: linear-gradient(270deg, rgba(0, 156, 187, 1) 0%, #192f59 100%);
+}
+
+.why-in-rom p,
+.why-in-rom h1,
+.why-in-rom h2 {
+  color: white !important;
+}
+
+#section-6 h1,
+.why-in-rom h2 {
+  margin-bottom: 4%;
+  text-align: center;
+}
+
+#section-6 p,
+li {
+  color: #5f5f5f;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 25.6px;
+  font-weight: 400;
+}
+
+#section-6 .container {
+  max-width: 1100px;
+  padding-top: 15px;
+}
+
+.certificate-recognition {
+  max-width: 169px;
+  margin: 20px 60px;
+}
+
+.police-pic {
+  margin-top: 100px;
+  border-radius: 8px;
+}
+
+/*------------ Section 7 (CTA) --------------------------------------------------------------------------------------------------------*/
+
+.cta-2 {
+  position: relative;
+  width: 100%;
+  height: 305.45px;
+  background-image: url("../images/video-call-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/*------------ Section 8 (Contact us form) --------------------------------------------------------------------------------------------------------*/
+
+.section-8 {
+  margin-top: 60px;
+}
+
+.section-8 p {
+  max-width: 610px;
+  color: black;
+}
+
+.section-8 input {
+  font-family: Quicksand;
+  margin-bottom: 20px;
+  border-radius: 0%;
+  border: 1px solid #192f59;
+  box-shadow: none;
+  border-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    #192f594b 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: #f2f2f2;
+  border-image-slice: 1;
+  padding-left: 31px;
+}
+
+.section-8 .form-group:first-child input {
+  border-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    #192f59e5 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-image-slice: 1;
+}
+
+.section-8 .form-control {
+  max-width: 610px;
+  height: 64.73px;
+}
+
+.section-8 button {
+  font-family: "Quicksand";
+  font-size: 18px;
+  width: 190px;
+  height: 68.02px;
+  border: none;
+  color: white;
+  background-color: #192f59;
+  border-radius: 0%;
+}
+
+.section-8 hr {
+  border: 1px solid #192f59;
+  width: 100%;
+  margin-top: 0px;
+  opacity: 1;
+  border-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    #002e83 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-image-slice: 1;
+}
+
+/*------------ Section 9 --------------------------------------------------------------------------------------------------------*/
+
+/*------------- Footer section ------------ */
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #192f59;
+}
+
+footer p,
+footer a,
+footer h4 {
+  color: #ffffff;
+}
+
+/*------------------------------ Responsive styles -----------------------------------*/
+
+@media (max-width: 1290px) {
+  /* ↓↓ Navbar ↓↓ */
+
+  .social-media {
+    position: absolute;
+    right: 1%;
+    z-index: 1;
+  }
+
+  .nav-blue-bar-content-right {
+    position: absolute;
+    top: 7px;
+    right: 1%;
+    color: #ffffff;
+    margin: 0;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1190px) {
+  /* ↓↓ adjusts Navbar components ↓↓ */
+
+  .nav-blue-bar-content-right {
+    visibility: hidden;
+  }
+  .nav-item {
+    padding-right: 30px;
+  }
+
+  .social-media {
+    position: absolute;
+    right: 5%;
+    top: 0%;
+    z-index: 1;
+  }
+
+  .social-media button {
+    border-radius: 100%;
+    border-color: transparent;
+  }
+  .social-media button:hover {
+    background-color: #f4f5f7;
+  }
+
+  /* ↓↓ Section 1 ↓↓ */
+}
+
+@media (max-width: 992px) {
+  /* ↓↓ Hides Navbar components ↓↓ */
+
+  .line-1,
+  .nav-blue-bar p,
+  .nav-blue-bar,
+  .collapse button {
+    visibility: hidden;
+  }
+
+  .custom-navbar {
+    z-index: 1;
+    background-color: #192f59;
+  }
+
+  .navbar-brand {
+    color: #ffffff;
+    margin-left: 20px;
+  }
+
+  .social-media {
+    visibility: hidden;
+  }
+
+  .navbar-center {
+    display: flex;
+    justify-content: center;
+    padding-left: 0%;
+  }
+
+  .nav-item {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .nav-link {
+    color: #ffffff;
+    text-align: center;
+  }
+  .nav-link:hover {
+    color: rgb(121, 121, 121);
+    text-align: center;
+  }
+
+  /* ↓↓ Section 1 components ↓↓ */
+
+  .big-heading {
+    margin: 60px auto auto auto;
+    width: 500px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  /* ↓↓ Section 2 components ↓↓ */
+
+  /* ↓↓ Section 6 components ↓↓ */
+
+  .police-pic {
+    margin-top: 10px;
+  }
+}
+
+/* Media Queries for screens */
+
+@media (max-width: 767.98px) {
+  /* section-1 */
+  .icon-sect {
+    max-width: 80%;
+  }
+
+  .sect1-title {
+    padding-left: 30px;
+  }
+
+  /* section-2 */
+  .timeline-circle {
+    visibility: hidden;
+  }
+  .timeline {
+    width: 100%;
+  }
+
+  .hidden-2 {
+    display: block;
+  }
+
+  .hidden-2-small {
+    display: none;
+  }
+
+  .content h1 {
+    font-size: 25px;
+  }
+
+  .last-timeline-step {
+    width: 100% !important;
+  }
+  .sect2-cards {
+    max-width: 90%;
+  }
+
+  /* section-6 */
+  .certificate-recognition {
+    max-width: 109px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* ↓↓ Section 1 components ↓↓ */
+
+  p,
+  a,
+  li {
+    font-size: 14px !important;
+  }
+
+  /* ↓↓ Section 2 components ↓↓ */
+}
+
+@media screen and (min-width: 768px) {
+  .timeline {
+    display: grid;
+    grid-template-columns: 1fr 3px 1fr;
+  }
+
+  .timeline-middle {
+    height: 100%;
+  }
+
+  .timeline-circle {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

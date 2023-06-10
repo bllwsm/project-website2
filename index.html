@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EuroMed Study</title>
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS Style sheets -->
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!-- Fonts -->
+    <script
+      src="https://kit.fontawesome.com/c72576c302.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Sacramento&family=Ubuntu:wght@400;900&family=Roboto:wght@400;900&family=Quicksand:wght@400&family=Poppins:wght@400;900&family=Inter:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon-16x16.png" />
+  </head>
+
+  <!---------- Start ------------------------------------------------------------------------------------------>
+  <!----------------------------------------------------------------------------------------------------------->
+  <body>
+    <nav class="navbar custom-navbar navbar-expand-lg sticky-top">
+      <div class="nav-blue-bar">
+        <p class="nav-blue-bar-content-left">
+          <i class="fa-solid fa-square-phone"></i> &nbsp; &nbsp; 0000-111-2222
+          &nbsp; &nbsp; &nbsp;
+          <i class="fa-solid fa-envelope" style="color: #ffffff"></i>
+          &nbsp; &nbsp; Student@gmail.com
+        </p>
+        <p class="nav-blue-bar-content-right">
+          We are now taking intakes for July, Limited seats
+        </p>
+      </div>
+
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="../images/EuroMed-Study.png"
+            alt="Bootstrap"
+            class="img-fluid"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars fa-xl" style="color: #ffffff"></i>
+        </button>
+        <div class="collapse navbar-collapse navbar-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Courses
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Gen-med.html">
+                    Medicine &nbsp; <i class="fa-solid fa-stethoscope"></i
+                  ></a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="Dentistry.html"
+                    >Dentistry &nbsp; <i class="fa-solid fa-tooth"></i>
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="Pharmacy.html"
+                    >Pharmacy &nbsp;
+                    <i class="fa-solid fa-prescription-bottle-medical"></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Universities.html">Univeristies</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About Us
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="Company.html"> Our Company</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="FAQs.html"> FAQs </a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="Contact-us.html">Contact Us</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <button class="btn">
+            <i
+              class="social-media-icons fa-brands fa-whatsapp"
+              style="color: #25d366"
+            ></i>
+          </button>
+          <button class="btn">
+            <i
+              class="social-media-icons fa-brands fa-facebook"
+              style="color: #4267b2"
+            ></i>
+          </button>
+          <button class="btn">
+            <i
+              class="social-media-icons fa-brands fa-linkedin"
+              style="color: #0072b1"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="myAlert"
+      class="alert alert-info alert-dismissible fade d-none show m-0 border-0 rounded-0"
+      role="alert"
+    >
+       
+        We are now taking intakes for July, Limited seats &nbsp;&nbsp;
+      
+      <a href="Contact-us.html" class="btn btn-outline-light btn-sm rounded-1"
+        >Enquire Now</a
+      >
+      <button
+        type="button"
+        class="close btn btn-lg float-end m-0 p-0"
+        data-dismiss="alert"
+        aria-label="Close"
+      >
+        <i class="fa-solid fa-xmark" style="color: #ffffff"></i>
+      </button>
+    </div>
+
+    <!-------- Section 1 (hero section) -------------------------------------------------------------------------------------->
+
+    <section class="section-1">
+      <div class="sect1-content container-fluid">
+        <div class="overlay"></div>
+        <div class="row align-items-center content-container">
+          <div class="col-md-6 sect1-title">
+            <h1 class="display-4 text-white fw-bold">
+              <span style="color: #00a2ff">Experience</span> High-Quality
+              Medical Education in Romania
+            </h1>
+            <p class="lead text-white fw-bold">
+              Your Trusted Partner in Pursuing Your Medical Career Abroad
+            </p>
+          </div>
+
+          <div class="col-md-6 icon-sect row mt-4 gy-3 mx-auto shadow-lg">
+            <!-- Column: Globally Recognized Degrees -->
+            <div class="col-6 col-sm-6 col-md-4 text-center">
+              <div class="icon-wrapper" id="icon1">
+                <i class="fas fa-graduation-cap fa-2x"></i>
+              </div>
+              <p>
+                <strong>Globally</strong> <br />
+                Recognized Degrees
+              </p>
+            </div>
+
+            <!-- Column: Living Costs -->
+            <div class="col-6 col-sm-6 col-md-4 text-center">
+              <div class="icon-wrapper" id="icon2">
+                <i class="fas fa-wallet fa-2x"></i>
+              </div>
+              <p>
+                <strong>Affordable</strong> <br />
+                Tuition & Living Costs
+              </p>
+            </div>
+
+            <!-- Column: Multicultural Environment -->
+            <div class="col-6 col-sm-6 col-md-4 text-center">
+              <div class="icon-wrapper" id="icon3">
+                <i class="fas fa-handshake fa-2x"></i>
+              </div>
+              <p><strong>Multicultural</strong> <br />Study Environment</p>
+            </div>
+
+            <!-- Column: High Standard of Living & Safety -->
+            <div class="col-6 col-sm-6 col-md-4 mb-4 text-center">
+              <div class="icon-wrapper" id="icon4">
+                <i class="fas fa-building fa-2x"></i>
+              </div>
+              <p>
+                <strong>High Standard</strong> <br />
+                of Living & Safety
+              </p>
+            </div>
+
+            <!-- Column: Post-Graduation Opportunities -->
+            <div class="col-6 col-sm-6 col-md-4 mb-4 text-center">
+              <div class="icon-wrapper" id="icon5">
+                <i class="fas fa-briefcase fa-2x"></i>
+              </div>
+              <p>
+                <strong>Excellent</strong> <br />
+                Post-Graduation Opportunities
+              </p>
+            </div>
+
+            <!-- Column: Our Agency Support -->
+            <div class="col-6 col-sm-6 col-md-4 mb-4 text-center">
+              <div class="icon-wrapper" id="icon6">
+                <i class="fas fa-user-friends fa-2x"></i>
+              </div>
+              <p>
+                <strong>24/7 </strong> <br />
+                Agency Support
+              </p>
+            </div>
+
+            <div class="header-buttons container text-center">
+              <a href="#section-6" class="btn mt-4 w-25 mb-5 me-5 text-center"
+                >Learn More</a
+              >
+              <a href="Contact-us.html" class="btn mt-4 w-50 mb-5 text-center"
+                >Enquire Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- Section 2 (3-step process) -------------------------------------------------------------------------------------->
+
+    <section class="section-2">
+      <h2 class="text-center mb-3 fw-bold">Our 3 step process</h2>
+      <h3 class="text-center mb-5 fw-bold"></h3>
+
+      <div class="timeline">
+        <div class="steps">
+          <h1>1</h1>
+        </div>
+
+        <div class="timeline-middle">
+          <div class="timeline-circle shadow"></div>
+        </div>
+        <div class="timeline-component timeline-content rounded-4 shadow">
+          <h3>CONSULTATION</h3>
+          <p>
+            Connect with a skilled team member of ours for a free evaluation of
+            your records and personalized advice for international study
+            options.
+          </p>
+        </div>
+
+        <div class="steps hidden-2 text-center">
+          <h1>2</h1>
+        </div>
+        <div
+          style="
+            background: linear-gradient(
+              50deg,
+              rgba(0, 156, 187, 1) 0%,
+              rgba(6, 127, 162, 1) 6%,
+              rgba(9, 115, 151, 1) 15%,
+              rgba(12, 103, 140, 1) 19%,
+              rgba(18, 79, 118, 1) 31%,
+              rgba(23, 58, 99, 1) 48%,
+              rgba(25, 47, 89, 1) 100%
+            );
+          "
+          class="timeline-component timeline-content rounded-4 shadow"
+        >
+          <h3>APPLICATION</h3>
+          <p>
+            Leave the documentation and application process in the capable hands
+            of our professional admissions team, who will liaise with the
+            institutions on your behalf.
+          </p>
+        </div>
+        <div class="timeline-middle">
+          <div class="timeline-circle shadow"></div>
+        </div>
+        <div class="steps hidden-2-small">
+          <h1>2</h1>
+        </div>
+
+        <div class="steps">
+          <h1>3</h1>
+        </div>
+        <div class="timeline-middle">
+          <div class="timeline-circle shadow"></div>
+        </div>
+        <div class="timeline-component timeline-content rounded-4 shadow">
+          <h3>ARRIVAL</h3>
+          <p>
+            Receive your acceptance letter and gear up for an unforgettable
+            experience. We'll organize an airport pick-up and assist you in
+            getting settled into your new environment.
+          </p>
+        </div>
+      </div>
+      <hr />
+
+      <div class="text-center last-timeline-step timeline-content w-75">
+        <div class="steps">
+          <h2>4</h2>
+        </div>
+        <h3>Part of Our Extra Support</h3>
+        <p>
+          Our company provides additional support in terms of study resources,
+          accommodation for the university year, and more to ensure your
+          success.
+        </p>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-12 mx-2 card sect2-cards mb-4">
+            <div class="card-body">
+              <h2 class="card-title">Applicants Study Material</h2>
+              <p class="card-text text-white">
+                Dont Worry! We provide curated study materials for your
+                application process and academic success. Our resources simplify
+                university entrance exams and equip you with essential
+                knowledge.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12 mx-2 card sect2-cards sect2-card-middle mb-4">
+            <div class="card-body">
+              <h2 class="card-title">Language Support</h2>
+              <p class="card-text">
+                If you want to, you can master languages with our one-year Super
+                Duolingo account. Enhance language skills for seamless
+                communication during your study abroad journey. However, English
+                is mostly spoken too!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-12 mx-2 card sect2-cards mb-4">
+            <div class="card-body">
+              <h2 class="card-title">Help Within Romania</h2>
+              <p class="card-text text-white">
+                Were here with you every step. Our team provides support for
+                your study journey in Romania. We assist with local procedures,
+                accommodation, healthcare system navigation, and offer
+                personalized advice for a seamless transition.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- Section 3 (Benefits of studying in romania) -------------------------------------------------------------------------------------->
+
+    <section class="section-3 py-5">
+      <div class="container">
+        <h1 class="text-center mb-3">Study Medicine in Romania</h1>
+        <h3 class="text-center mb-5">
+          Explore the benefits of pursuing a medical degree in Romania
+        </h3>
+
+        <div class="row">
+          <!-- Column: Program Offerings -->
+          <div class="col-md-6 col-lg-4 mb-4">
+            <a href="#extra-info1" class="scroll-link text-decoration-none">
+              <div class="info-column h-100">
+                <i class="fas fa-stethoscope info-icon"></i>
+                <h4>Program Offerings</h4>
+                <p>
+                  Romanian universities offer various medical programs including
+                  General Medicine, Dentistry, and Pharmacy.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Column: Affordable tuition fees -->
+          <div class="dropdown col-md-6 col-lg-4 mb-4">
+            <a href="#Affordable" class="scroll-link text-decoration-none">
+              <div class="info-column h-100">
+                <i class="fas fa-hourglass-half info-icon"></i>
+                <h4>Affordable Tuition Fees</h4>
+                <p>
+                  Romania is more cost-effective, with relatively lower tuition
+                  fees, making it an attractive option for international
+                  students.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Column: Degrees Awarded -->
+
+          <div class="dropdown col-md-6 col-lg-4 mb-4">
+            <a href="#Degree-awarded" class="scroll-link text-decoration-none">
+              <div class="info-column h-100">
+                <i class="fas fa-graduation-cap info-icon"></i>
+                <h4>Degrees Awarded</h4>
+                <p>
+                  Upon successful completion of the program, students are
+                  awarded internationally recognized degrees such as MD, DDS, or
+                  PharmD.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Column: Language of Instruction -->
+          <div class="dropdown col-md-6 col-lg-4 mb-4">
+            <a href="#extra-info4" class="scroll-link text-decoration-none">
+              <div class="info-column h-100">
+                <i class="fas fa-globe info-icon"></i>
+                <h4>English-Taught Programs</h4>
+                <p>
+                  Many universities in Romania offer programs taught in English,
+                  making it accessible for international students who may not be
+                  fluent in Romanian.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Column: International Accreditation and Recognition -->
+          <div class="dropdown col-md-6 col-lg-4 mb-4">
+            <a href="#Degree-awarded" class="scroll-link text-decoration-none">
+              <div class="info-column h-100">
+                <i class="fas fa-certificate info-icon"></i>
+                <h4>Clinical Experience</h4>
+                <p>
+                  Romanian medical programs prioritize practical training,
+                  clinical experience, internships, and research, preparing
+                  students for successful medical careers.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Column: Diverse and Welcoming Environment -->
+          <div class="dropdown col-md-6 col-lg-4 mb-4">
+            <a
+              href="#Cultural-Diversity"
+              class="scroll-link text-decoration-none"
+            >
+              <div class="info-column h-100">
+                <i class="fas fa-people-arrows info-icon"></i>
+                <h4>Multicultural Environment</h4>
+                <p>
+                  Romanian universities offer a multicultural learning
+                  environment for international students, promoting personal and
+                  academic growth.
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Extra Info Container -->
+          <div class="extra-info-container mt-4">
+            <!-- Extra Info elements -->
+            <div
+              class="extra-info d-none p-3 bg-light shadow rounded-3"
+              id="extra-info1"
+            >
+              Romania offers a diverse array of medical study programs that
+              cater to a <strong>wide range of student interests</strong>.
+              <br />
+              These include:
+              <li>
+                <strong>General Medicine:</strong> This comprehensive 6-year
+                program equips students with the requisite knowledge and
+                practical skills for a successful career in medicine.
+              </li>
+              <li>
+                <strong>Dentistry:</strong> This 6-year field dedicated to oral
+                health provides in-depth knowledge about dental diseases, their
+                prevention, and treatment techniques.
+              </li>
+              <li>
+                <strong>Pharmacy:</strong> This 5-year program provides a solid
+                foundation in pharmaceutical sciences, preparing students for a
+                career in pharmaceutical research and development.
+              </li>
+              <li>
+                <strong>Veterinary Medicine:</strong> This 6-year program is
+                ideal for animal lovers as it prepares students for a career in
+                animal healthcare and disease prevention. <br /><br />
+                These programs are <strong>globally recognized</strong> and are
+                designed to meet the highest international standards. They are
+                taught in English, French, or Romanian, depending on the
+                university. Apart from theoretical knowledge, students gain
+                <strong>hands-on clinical experience</strong>, which is crucial
+                in the medical profession.
+              </li>
+            </div>
+
+            <div class="extra-info d-none" id="extra-info2"></div>
+
+            <div class="extra-info d-none" id="extra-info3"></div>
+
+            <div
+              class="extra-info d-none p-3 bg-light shadow rounded-3"
+              id="extra-info4"
+            >
+              Romania offers medical programs taught in
+              <strong>multiple languages</strong> to cater to a
+              <strong>global student body</strong>.
+              <li>
+                <strong>English Programs:</strong> Many universities offer
+                English-taught programs, drawing a large number of international
+                students. These programs ensure that language doesn't hinder
+                quality medical education.
+              </li>
+              <li>
+                <strong>French Programs:</strong> There are also programs taught
+                in French, making Romania an ideal choice for French-speaking
+                students or those with French as a second language.
+              </li>
+              <li>
+                <strong>Romanian Programs:</strong> For full cultural immersion,
+                programs taught in Romanian are available. International
+                students typically undergo a year-long preparatory Romanian
+                language course before beginning their studies.
+              </li>
+              <br />
+              All programs, regardless of the
+              <strong>language of instruction</strong>, deliver
+              <strong>high-quality medical education</strong>.
+            </div>
+
+            <div class="extra-info d-none" id="extra-info5"></div>
+            <div class="extra-info d-none" id="extra-info6"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- Section 4 (CTA) -------------------------------------------------------------------------------------->
+    <div class="cta">
+      <div class="overlay"></div>
+      <div
+        class="content h-100 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1 class="pb-3">Book A Free Consultation With Us Today</h1>
+        <button
+          class="cta-button"
+          onclick="location.href='Contact-us.html'"
+          type="button"
+        >
+          Book now
+        </button>
+      </div>
+    </div>
+
+    <!-------- Section 5 (our free tools for you) -------------------------------------------------------------------------------------->
+    <section class="section-5">
+      <div class="text-center title">
+        <h1>Our Free Tools For You</h1>
+      </div>
+
+      <div class="container tools-description">
+        <div class="row">
+          <div
+            class="col-lg-6 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="images\video-call.jpg"
+              alt="Image"
+              class="img-fluid mb-4"
+              id="hover-image"
+            />
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="card mb-4 border-0 bg-transparent"
+              data-hover-image="images/join-whatsapp.jpg"
+            >
+              <div class="card-body">
+                <h2 class="card-title">Applicants Whatsapp Group</h2>
+                <p class="card-text mb-2">
+                  Join our dedicated Whatsapp group for applicants, where you
+                  can connect with fellow students, share information, and
+                  receive timely updates about the application process,
+                  deadlines, and more. Stay informed and supported throughout
+                  your journey.
+                </p>
+                <a href="#" class="card-link">Join Now</a>
+              </div>
+            </div>
+            <div
+              class="card mb-4 border-0 bg-transparent"
+              data-hover-image="images/video-call.jpg"
+            >
+              <div class="card-body">
+                <h2 class="card-title">Virtual 1-1 Meetings</h2>
+                <p class="card-text mb-2">
+                  Schedule a personalized virtual meeting with our experienced
+                  education consultants to discuss your individual needs,
+                  address concerns, and receive tailored advice on your study
+                  options. Get expert guidance every step of the way to ensure
+                  your success.
+                </p>
+                <a href="Contact-us.html" class="card-link">Book Now</a>
+              </div>
+            </div>
+            <div
+              class="card mb-4 border-0 bg-transparent"
+              data-hover-image="images\cost-of-living.jpg"
+            >
+              <div class="card-body">
+                <h2 class="card-title">Cost Of Living Estimator</h2>
+                <p class="card-text mb-2">
+                  Use an interactive Cost of Living Estimator tool to calculate
+                  your expected expenses during your studies abroad. Gain
+                  insights into the cost of tuition, accommodation, food, and
+                  other living expenses to make informed decisions and plan your
+                  budget accordingly.
+                </p>
+                <a
+                  href="https://www.expatistan.com/cost-of-living/comparison/london/bucharest?"
+                  class="card-link"
+                  >Check Costs</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------- Section 6 (why study in romania) -------------------------------------------------------------------------------------->
+    <section id="section-6">
+      <div class="container-fluid pt-5 why-in-rom">
+        <h1>Why Study Medicine in Romania with EuroMed?</h1>
+        <h2>Globally Recognized Degrees:</h2>
+        <!-- Globally Recognized Degrees: -->
+        <div class="row">
+          <div class="col-lg-12" id="Degree-awarded">
+            <div class="row offset-lg-2">
+              <div class="col-lg-5">
+                <p>
+                  Romanian medical universities comply with the European Union's
+                  standards, ensuring a top-notch education. Their degrees are
+                  globally recognized, enabling graduates to practice medicine
+                  worldwide. With EuroMed, students are guided to Romania's best
+                  medical programs, equipping them for their career goals.
+                </p>
+              </div>
+              <div class="col-lg-5">
+                <p>
+                  Global recognition of degrees includes listing in the World
+                  Health Organization's World Directory of Medical Schools , and
+                  approval by the Medical Council of the European Union. This
+                  allows graduates to practice in all WHO and EU member states,
+                  respectively. <br />
+                  <strong>Please note</strong> , local licensing exams may be
+                  required depending on where you plan to practice. This global
+                  acceptance underscores the worth of your educational
+                  investment.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-12 text-center py-5">
+            <img
+              src="images\WHO-logo.png"
+              alt="WHO-logo"
+              class="img-fluid certificate-recognition"
+            />
+            <img
+              src="images\uems-logo.png"
+              alt="uems-logo"
+              class="img-fluid certificate-recognition"
+            />
+            <img
+              src="images\GMC-logo.png"
+              alt="gmc-logo"
+              class="img-fluid certificate-recognition"
+            />
+            <img
+              src="images\AMC-logo.png"
+              alt="amc-logo"
+              class="img-fluid certificate-recognition"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- High-Quality Education -->
+      <div class="container">
+        <h2>High-Quality Education:</h2>
+        <p class="pt-3">
+          Romania's <strong>medical education</strong> adheres to high-quality
+          standards with our partner universities boasting
+          <strong>modern facilities</strong> and expert faculty. The
+          <strong>comprehensive curriculum</strong> provides a well-rounded
+          understanding of medicine, updated to reflect latest advancements.
+          <br /><br />
+          We go beyond theory; students gain
+          <strong>practical experience</strong> via internships, clinical
+          rotations, and research initiatives. This exposure prepares them for a
+          successful career in medicine, fostering
+          <strong
+            >competent, ethical, and compassionate healthcare
+            professionals</strong
+          >.
+        </p>
+      </div>
+
+      <!-- Affordability and Cost-effectiveness -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7" id="Affordable">
+            <h2>Affordability and Cost-effectiveness:</h2>
+
+            <p class="pt-3">
+              Studying medicine in Romania is a
+              <strong>cost-effective alternative</strong> compared to other
+              European countries or the U.S., offering lower tuition fees and
+              living expenses without compromising on education quality.
+              <br /><br />Tuition fees in Romania range from €5,000 to €8,500
+              per year for international students, quite affordable compared to
+              the UK. Moreover, Romania's <strong>cost of living</strong> is
+              significantly lower, covering expenses like accommodation, food,
+              transportation, and personal expenses. As per Numbeo, maintaining
+              a standard of life in Bucharest requires about £2,300, whereas in
+              London it requires around £4,700. <br /><br />
+              We're dedicated to helping you find the most
+              <strong>affordable options</strong> and managing your budget
+              effectively while ensuring a top-tier education.
+            </p>
+          </div>
+
+          <div
+            class="col-lg-5 align-items-center justify-content-center d-flex"
+          >
+            <div class="card shadow-lg rounded-5">
+              <div class="card-body p-0">
+                <img
+                  src="images\UKvsROM.jpeg"
+                  alt="img"
+                  class="img-fluid UKvsROM"
+                />
+              </div>
+              <div class="card-footer">
+                <a class="fs-6 fw-light" href="https://livingcost.org/cost">
+                  @livingcost</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <!-- Cultural Diversity and Rich Student Life: -->
+          <div class="col-lg-6">
+            <div class="container-fluid" id="Cultural-Diversity">
+              <h2>Cultural Diversity and Rich Student Life:</h2>
+              <p class="pt-3">
+                Romania's universities attract students from various countries,
+                fostering an inclusive and multicultural environment. Students
+                can enjoy Romania's rich history, diverse landscapes, and
+                vibrant cities, providing a unique and enriching cultural
+                experience. Romanian people are known for their hospitality,
+                making international students feel welcome and well-integrated
+                into the community. EuroMed offers comprehensive support in
+                settling down and adapting to the new environment, ensuring you
+                have the best possible experience during your studies.
+              </p>
+
+              <ul>
+                <li>
+                  <strong>International Students:</strong> According to the
+                  Romanian National Institute of Statistics, Romania welcomed
+                  around <strong>30,000</strong> international students from
+                  more than 100 countries in the academic year 2020-2021. This
+                  number has been consistently growing over the past decade.
+                </li>
+
+                <li>
+                  <strong>Erasmus Programme:</strong> Romania participates in
+                  the Erasmus+ programme, which is a testament to its commitment
+                  to international student exchange and promoting cultural
+                  diversity.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Excellent Post-Graduation Opportunities: -->
+          <div class="col-lg-6">
+            <div class="container-fluid">
+              <h2>Excellent Post-Graduation Opportunities:</h2>
+              <p class="pt-3">
+                Romania's medical degrees are recognized across the European
+                Union and other countries, opening doors to various job
+                opportunities and further specialization. Graduates from
+                Romanian medical schools have a high success rate in securing
+                residencies and jobs in their home countries and
+                internationally. <br />
+                The hands-on training and rigorous curriculum equip students
+                with the necessary skills and knowledge to excel in their
+                medical careers.
+                <br /><br />
+                EuroMed is committed to guiding you through your journey and
+                helping you achieve your aspirations in the medical field.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- High Standard of Living and Safety -->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>High Standard of Living and Safety:</h2>
+            <p class="pt-3">
+              <strong>Romania</strong>, known for its high standard of living,
+              provides a perfect balance of
+              <strong>affordable living</strong> and
+              <strong>quality amenities</strong>. Its cost of living, much lower
+              than many Western European nations, is particularly favorable for
+              students.
+            </p>
+            <p>
+              Key features include <strong>affordable housing</strong>,
+              reasonably priced food, transport, and leisure activities,
+              allowing for an extended budget capacity. Also, Romania maintains
+              impressively low crime rates, ranking among the top 30% safest
+              countries as per the Global Peace Index.
+            </p>
+            <p>
+              The nation's thriving economy, largely driven by the IT,
+              automotive, and manufacturing sectors, ensures a high standard of
+              living. Romanians are notably hospitable and often fluent in
+              English, aiding in a smoother transition for international
+              students.
+            </p>
+            <p>
+              Romania's <strong>universal healthcare system</strong> ensures
+              accessible healthcare for students from EU/EEA countries, provided
+              they have an EHIC. Non-EU/EEA students can equally access
+              healthcare services by purchasing health insurance.
+            </p>
+          </div>
+          <div class="col-lg-6 text-end">
+            <img
+              src="images\police.jpg"
+              alt="amc-logo"
+              class="img-fluid police-pic shadow"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------- Section 7 (CTA) -------------------------------------------------------------------------------------->
+    <div class="cta-2">
+      <div class="overlay"></div>
+      <div
+        class="content h-100 d-flex flex-column justify-content-center align-items-center"
+      >
+        <h1 class="pb-3">Discover the course which suits you best</h1>
+        <button
+          class="cta-button"
+          onclick="location.href='Contact-us.html'"
+          type="button"
+        >
+          Book a free 1 to 1
+        </button>
+      </div>
+    </div>
+
+    <!-------- Section 8 (Contact us form) -------------------------------------------------------------------------------------->
+    <section class="section-8">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Contact Us</h1>
+            <p>
+              If you have any questions or need further assistance, please don't
+              hesitate to reach out to us through the contact form below, and
+              our dedicated team will be happy to help you.
+            </p>
+            <form>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="input1"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="input2"
+                  placeholder="Phone Number"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="input3"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="input4"
+                  placeholder="Message"
+                />
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="images/last-image.png"
+              alt="Your image description"
+              class="img-fluid"
+              style="margin-top: 50px"
+            />
+            <hr />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-------------- Footer ---------------------------------------------------------------------------------------------------------->
+
+    <footer class="footer text-white py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Company Name</h4>
+            <p>123 Main Street, Anytown, Country</p>
+            <p>Phone: +123 456 7890</p>
+            <p>Email: info@companyname.com</p>
+          </div>
+          <div class="col-md-6">
+            <h4>Quick Links</h4>
+            <ul class="list-unstyled">
+              <li class=""><a href="#" class="text-white">Home</a></li>
+              <li><a href="#" class="text-white">About Us</a></li>
+              <li><a href="#" class="text-white">Services</a></li>
+              <li><a href="#" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center mt-3">
+            <p>&copy; 2023 Company Name. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
